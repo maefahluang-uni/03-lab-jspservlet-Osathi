@@ -65,7 +65,7 @@ public class TestBMICalculatorIT {
             assertThat(jsonResponse, CoreMatchers.containsString("Result is 22"));
 
             assertThat(jsonResponse, CoreMatchers.containsString("normal"));
-            _logger.info("IT1 test passed");
+            _logger.info("IT2 test passed");
         }
     }
 
@@ -83,8 +83,9 @@ public class TestBMICalculatorIT {
             assertThat(jsonResponse, CoreMatchers.containsString("Result is 31"));
 
             assertThat(jsonResponse, CoreMatchers.containsString("obese"));
-            _logger.info("IT1 test passed");
+            _logger.info("IT3 test passed");
         }
     }
 
+    
 }
